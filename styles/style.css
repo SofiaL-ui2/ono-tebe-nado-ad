@@ -40,10 +40,6 @@
 .contact-info {
   justify-self: end;
   max-width: 240px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 4px;
 }
 
 .text-link {
@@ -94,6 +90,7 @@
 }
 
 .word-one {
+  margin:165px 0 0 50px;
   align-self: flex-start;
 }
 
@@ -102,6 +99,7 @@
 }
 
 .word-three {
+  margin-right: 50px ;
   align-self: flex-end;
 }
 
@@ -136,13 +134,10 @@
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
 }
 
 .items-section {
-  width: 100%;
-  max-width: 1052px;
+  width: 1052px;
   margin: 0 auto;
   padding: 20px 0 40px 0;
   height: 680px;
