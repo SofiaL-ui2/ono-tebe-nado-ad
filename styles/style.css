@@ -222,7 +222,7 @@
 .card-content {
   display: flex;
   flex-direction: column;
-  position: relative
+  position: relative;
   color: white;
   gap: 12px;
   z-index: 2;
