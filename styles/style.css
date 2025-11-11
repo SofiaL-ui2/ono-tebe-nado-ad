@@ -12,17 +12,15 @@
   z-index: -1;
 }
 
-.aligned-text {
-  display: block;
-  text-align: start;
-}
-
 .aligned-text_center {
   text-align: center;
 }
-
 .aligned-text_right {
   text-align: end;
+}
+.aligned-text {
+  display: block;
+  text-align: start;
 }
 
 .header {
