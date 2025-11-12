@@ -263,3 +263,52 @@
   width: 48px;
   height: 48px;
 }
+@media (max-width: 1100px) {
+  .header {
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .menu {
+    gap: 15px;
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .address {
+    font-size: 16px;
+    text-align: right;
+  }
+
+  .cover-title {
+    font-size: 60px;
+    gap: 10px;
+  }
+
+  .lots-card-items {
+    width: calc(50% - 20px);
+    min-height: 400px;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 80px 20px;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .footer-list {
+    justify-content: center;
+  }
+}
